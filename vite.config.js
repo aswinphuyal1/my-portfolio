@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',
-  base: '/my-portfolio/',
+  base: '/my-portfolio/', // Replace with your GitHub repo name
+  plugins: [react()],
 });
